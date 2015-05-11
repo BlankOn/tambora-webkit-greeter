@@ -1,0 +1,363 @@
+body,.stretch {
+	background: #222 url(../img/bg.png) no-repeat center center fixed;
+    color: #777;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    font-family: UbuntuRegular;
+}
+.depan{
+	border-radius: 3px;
+	background: #f2f2f2 url(../img/noise_gd.png);
+	width: 970px;
+	box-shadow: 0px 0px 8px #333333;
+	position: relative;
+	margin-top: 20px;
+	background-image: url(../img/logogd4.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+b.logotext {
+    font-size: 35px;
+    color: #51a9e5;
+    line-height: 80px;
+}
+.logogd {
+    height: 85px;
+    margin-left: 23px; 
+    background: url(../img/logogd.png) no-repeat;
+    padding-left: 70px;
+}
+.head {
+    margin: 7px 0px 0px 30px ;
+    width: 261px;
+}
+.sidebar-login {
+    font-size: 18px;
+    color: #51a9e5;
+    padding-bottom: 5px;
+}
+.footer-index{
+	width: 970px;
+    position: relative;
+    margin-top: 7px;
+}
+
+.btn-gd {
+  background-color: #006dcc;
+  color: #ffffff;
+  background-image: -moz-linear-gradient(top, #118cd8, #0f70ad);
+  background-image: -ms-linear-gradient(top, #118cd8, #0f70ad);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#118cd8), to(#0f70ad));
+  background-image: -webkit-linear-gradient(top, #118cd8, #0f70ad);
+  background-image: -o-linear-gradient(top, #118cd8, #0f70ad);
+  background-image: linear-gradient(top, #118cd8, #0f70ad);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#'0088cc, endColorstr='#'0044cc, GradientType=0);
+  border-color: #0f70ad #0f70ad #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-gd:hover,
+.btn-gd:active,
+.btn-gd.active,
+.btn-gd.disabled,
+.btn-gd[disabled] {
+  background-color: #0f70ad;
+}
+.btn-gd:active, .btn-gd.active {
+  background-color: #003399 \9;
+}
+
+.noise{
+    background-image: url(../img/head-noise.png);
+}
+
+.logo-dash {
+    position: absolute;
+    width: 26px;
+    height: 36px;
+    background-image: url(../img/logo-min.png);
+    margin-top: 1px;
+}
+.logo-font {
+    margin-left: 30px;
+}
+
+#users {
+    position: relative;
+    /*top: 250px;*/
+    left: 0;
+    bottom: -170px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.avatar{
+	background: #fdfdfd;
+	background: -moz-linear-gradient(#FDFDFD, #C9C9C9) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(#FDFDFD, #C9C9C9) repeat scroll 0 0 transparent;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+	background: rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+	height: 98px;
+	width: 98px;
+	z-index: 9;
+	padding: 3px;
+	background: url(../img/none.png) no-repeat;
+	background-position: center;
+}
+.avatar img{
+	-moz-transition-duration:4s;
+	-moz-transition-timing-function:linear;
+	-moz-transition-delay:4s;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	height: 98px;
+	width: 98px;
+	cursor: pointer;
+}
+
+.username {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    text-shadow: 0 1px 1px #000;
+	letter-spacing: 0px;
+    color: #ddd;
+    cursor: pointer;
+}
+.blankonuser {
+    margin: auto;
+	margin-bottom: 25px;
+	height: 98px;
+	width: 98px;
+	position: relative;
+}
+.blankonlogo {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 105px;
+    height: 105px;
+    /*background: url(../img/logo.png) no-repeat;
+    background-color: rgba(17,17,17,0.7);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+    border-radius: 90px;
+    filter: drop-shadow(0px 0px 3px #111);
+    -webkit-filter: drop-shadow(0px 0px 3px #111);*/
+    cursor: default;
+}
+
+.blankonlabel {
+    display: block;
+    margin-top: 0px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Comfortaa Bold;
+    font-size: 20px;
+    color: #ccc;
+    text-shadow: 0px 0px 1px #111;
+    cursor: default;
+}
+
+#anime
+    {
+	top: 120px;
+	display:block;
+	position:relative;
+	animation:tengah 8s;
+	-webkit-animation:tengah 8s;
+    }
+    @-webkit-keyframes tengah
+    {
+	0%   {left:0px; top: 250px;}
+	30%   {left:0px; top: 120px;}
+	100% {left:0px; top:120px;}
+}
+    
+.form_input{
+	position:relative;
+	margin: 45px auto;
+	margin-top: 20px;
+	width: 185px;
+	bottom: -170px;
+
+}
+.text_box{
+	border: 1px solid transparent;
+	border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 0 2px 3px #4189C3;
+	-webkit-box-shadow: 0 0 2px 3px #4189C3;
+	-moz-box-shadow: 0 0 2px 3px #4189C3;
+	font-family: "Lucida Grande","Lucida Sans Unicode",sans-serif;
+	height: 24px;
+	padding: 2px 26px 2px 5px;
+	width: 154px;
+}
+.submit{
+	background: url("../img/entry.svg") no-repeat;
+	border: medium none;
+	height: 24px;
+	width: 24px;
+	padding: 0;
+	position: absolute;
+	text-indent: -9999px;
+	margin-left: 159px;
+	margin-top: -36px;
+	cursor: pointer;
+	-webkit-transition: background 0.2s ease-in-out;
+}
+.submit:hover {
+	background: url("../img/close.svg") no-repeat;
+}
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:100px;
+   width:100%;
+   /*background:#999;*/
+   padding : auto;
+   text-align: center;
+   float: left;
+}
+
+.avatarul{
+    list-style-type:none;
+    margin: auto;
+    
+}
+.user {
+    display: inline-block;
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.button{
+    list-style-type:none;
+    margin: auto;
+    width: 280px;
+}
+.button .tbli {
+    display: inline;
+    font-family: UbuntuRegular;
+    width: 70px;
+    height: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.button .tbli img {
+    height: 34px;
+    width: 34px;
+    padding-top: 0px;
+    margin: 0 18px 0 18px;
+}
+.button .tbli ft {
+    position: absolute;
+    display: inline;
+    margin-left: -70px;
+    margin-right: -70px;  
+    padding-top: 40px;
+    height: auto;
+    width: 70px;
+    color:#ddd;
+    text-shadow: 0 0 1px #222;
+    text-align: center;
+}
+
+a:hover, a:active {
+  outline: 0;
+  text-decoration: none;
+}
+.css-session{
+    background-color: #fff;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+/*-------------DropUp menu-------------*/
+.dropup-menu {
+    bottom: 28px;
+    top: auto !important;
+    left: 0%;
+    background-color: #e0e0e0;
+    font-family: UbuntuRegular;
+    -webkit-filter: drop-shadow(0px 0px 2px #000);
+}
+
+/* position the arrow downwards, pointing to the menu */
+
+.dropup-menu:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-width: 6px;
+	border-style:solid;
+	border-color: #ccc transparent transparent transparent;
+	bottom: -12px;
+	margin-left: -52px;
+	position: absolute;
+	z-index: 110;
+	-webkit-filter: drop-shadow(0px 1px 1px #000);
+}
+
+/* point the caret up*/
+
+.up {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #000;
+    border-top: none;
+}
+
+.alert {
+	background: rgba(0,0,0,0.4);
+	color: #FF4000;
+	text-shadow: none;
+	margin: auto;
+	border: none;
+	width: 200px;
+	position:relative;
+	text-align: center;
+	float: center;
+	bottom: -150px;
+}
+
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('../font/font.eot');
+    src: url('../font/font.eot?#iefix') format('embedded-opentype'),
+         url('../font/font.woff') format('woff'),
+         url('../font/font.ttf') format('truetype'),
+         url('../font/font.svg#UbuntuRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../font/Comfortaa-Regular.ttf');
+}
+@font-face {
+    font-family: 'Comfortaa Light';
+    src: url('../font/Comfortaa-Light.ttf');
+}
+@font-face {
+    font-family: 'Comfortaa Bold';
+    src: url('../font/Comfortaa-Bold.ttf');
+}

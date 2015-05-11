@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+   	<script src="js/jquery.js"></script>
+    <script src="js/jquery.slide.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/blankon.js"></script>
+    <script src="js/lightdm.js"></script>
+  </head>
+
+<body>
+	<div id="anime">
+		<div class="blankonlogo"></div>
+		<div class="blankonlabel"><center></center></div>
+	</div>
+	<div id="users">
+		<ul class="avatarul">
+		</ul>
+	</div>
+	<div class="form_input">
+		<form id="submit">
+		<input type="password" name="password" id="password-input" placeholder="Enter your password" class="text_box"/>
+		<input type="text" name="password_submit" id="password_submit" value="" class="submit"/>
+		</form>
+	</div>
+	<div class="alert alert-error">
+		<button type="button" class="close" data-dismiss="alert">&times;</button>
+	</div>
+	<div id="footer">
+		<ul class="button">
+		</ul>
+	</div>
+
+  </body>
+  	<script language=JavaScript>
+	    var message="";
+	    function clickIE() {if (document.all) {(message);return false;}}
+	    function clickNS(e) {if
+	    (document.layers||(document.getElementById&&!document.all)) {
+	    if (e.which==2||e.which==3) {(message);return false;}}}
+	    if (document.layers)
+	    {document.captureEvents(Event.MOUSEDOWN)
+	    ;document.onmousedown=clickNS;}
+	    else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+	    document.oncontextmenu=new Function("return false")
+
+	</script>
+</html>
